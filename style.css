@@ -26,6 +26,10 @@ header ul li {
   margin-right: 10px;
 }
 
+#logo {
+  border: none;
+}
+
 section {
   padding: 5%;
   background-color: #f8f0fb;
@@ -102,7 +106,8 @@ footer {
 }
 
 #badge:hover {
-  background-color:white;
+  background-color:blue;
+  transition-duration: .5s;
 }
 
 .image-container img:nth-child(1) {
@@ -203,6 +208,8 @@ p:nth-child(n) {
 .membership {
   text-align: center;
   background-color: #fffffc;
+  margin: 0 auto;
+  width: 700px;
   
 }
 
@@ -228,6 +235,7 @@ p:nth-child(1){
     flex-wrap: wrap;
     height: 100px;
     align-content: space-between;
+    
   }
 
 
@@ -236,4 +244,5 @@ p:nth-child(1){
 .button:hover,
 .button:focus  {
   background: red;
+  border-radius: 6px;
 }
